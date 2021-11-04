@@ -1,0 +1,67 @@
+
+.main {
+	min-height: 100vh;
+	padding: 4rem 0;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	.title {
+		margin: 0;
+		line-height: 1.15;
+		font-size: 4rem;
+	}
+
+	.title,
+	.description {
+		text-align: center;
+	}
+
+	.description {
+		margin: 4rem 0;
+		line-height: 1.5;
+		font-size: 1.5rem;
+	}
+
+	.userResults {
+		display: flex;
+		flex-wrap: wrap;
+		width: 80%;
+		max-width: 800px;
+		margin-top: 40px;
+	}
+
+	.pagination {
+		margin-top: 20px;
+
+		.paginationButton {
+			display: inline-block;
+			vertical-align: middle;
+			width: 30px;
+			height: 30px;
+			line-height: 32px;
+			text-align: center;
+			cursor: pointer;
+			border: 1px solid #5f6368;
+			border-radius: 50%;
+			margin: 0 10px;
+			font-size: 20px;
+
+			&:hover {
+				background-color: #303134;
+				border: 1px solid transparent;
+			}
+		}
+	}
+}
+
+.footer {
+	display: flex;
+	flex: 1;
+	padding: 2rem 0;
+	justify-content: center;
+	align-items: center;
+	background-color: #303134;
+}

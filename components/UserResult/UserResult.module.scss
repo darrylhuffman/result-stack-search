@@ -1,0 +1,41 @@
+.UserResult {
+    flex: 0 0 33.333333%;
+    //background-color: #303134;
+
+    .userInfo {
+        border: 1px solid #5f6368;
+        border-radius: 8px;
+        margin: 5px;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 12px;
+
+        h3 {
+            margin: 0px;
+            font-size: 16px;
+
+            .avatar {
+                width: 28px;
+                height: 28px;
+                border-radius: 50%;
+                display: inline-block;
+                background-size: cover;
+                background-position: center;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+        }
+
+        h4 {
+            font-size: 14px;
+            font-weight: normal;
+            margin: 10px 0 0 0;
+        }
+
+        .location {
+            margin: 2px 0 10px 0;
+            font-size: 11px;
+            opacity: 0.75;
+        }
+    }
+}
